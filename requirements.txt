@@ -1,0 +1,8 @@
+openai==1.33.0
+together
+scipy==1.15.2
+numpy==1.26.4
+transformers==4.44.2
+shapely==2.1.0
+pandas==2.2.3
+httpx==0.27.2
