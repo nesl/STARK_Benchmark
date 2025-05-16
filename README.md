@@ -15,7 +15,7 @@
 
 - **Evaluation Focus:** Tasks are designed to assess both direct reasoning and the ability to generate and execute Python code. Baseline methods include classical geometric algorithms (multilateration, triangulation, Kalman filtering) and FSMs for human activity modeling.
 
-- **Reproducibility:** All [data](https://huggingface.co/datasets/prquan/STARK_10k/edit/main/README.md), [code](https://github.com/quanpr/STARK), and evaluation scripts are open-sourced to encourage benchmarking and method development in spatial-temporal reasoning. Please refer to our [GitHub repo](https://github.com/quanpr/STARK).
+- **Reproducibility:** All [data](https://huggingface.co/datasets/prquan/STARK_10k/edit/main/README.md), [code](https://github.com/nesl/STARK_Benchmark/), and evaluation scripts are open-sourced to encourage benchmarking and method development in spatial-temporal reasoning. Please refer to our [GitHub repo](https://github.com/nesl/STARK_Benchmark/).
 
 ## Example Use Cases
 
