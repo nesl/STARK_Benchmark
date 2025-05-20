@@ -1,6 +1,6 @@
 # [STARK: Spatial-Temporal reAsoning benchmaRK](https://arxiv.org/abs/2505.11618)
 
-**STARK** is a comprehensive benchmark designed to systematically evaluate large language models (LLMs) and large reasoning models (LRMs) on spatial-temporal reasoning tasks, particularly for applications in cyber-physical systems (CPS) such as robotics, autonomous vehicles, and smart city infrastructure.
+**[STARK](https://arxiv.org/abs/2505.11618)** is a comprehensive benchmark designed to systematically evaluate large language models (LLMs) and large reasoning models (LRMs) on spatial-temporal reasoning tasks, particularly for applications in cyber-physical systems (CPS) such as robotics, autonomous vehicles, and smart city infrastructure.
 
 ## Dataset Summary
 
@@ -86,3 +86,7 @@ If you have any questions or feedback, feel free to reach out:
 
 - **Name:** Pengrui Quan
 - **Email:** [prquan@ucla.edu](mailto:prquan@ucla.edu)
+
+## Preprint
+
+For more detail, refer to our [preprint](https://arxiv.org/abs/2505.11618).
