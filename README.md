@@ -98,6 +98,7 @@ python main.py --openai Llama-4 --dataset loc_range  --index 5 --mode text
 | LlaMA-4| $44.4| Together.ai  |
 | LlaMA-3-8B| $9.21| Together.ai  |
 | Mistral-7| $25.1| Together.ai  |
+
 *The cost of o3 is reduced by 80% since 06/2025.
 
 
