@@ -1,8 +1,13 @@
 # [STARK: Spatial-Temporal reAsoning benchmaRK](https://arxiv.org/abs/2505.11618)
 
-**[STARK](https://arxiv.org/abs/2505.11618)** is a comprehensive benchmark designed to systematically evaluate large language models (LLMs) and large reasoning models (LRMs) on spatial-temporal reasoning tasks, particularly for applications in cyber-physical systems (CPS) such as robotics, autonomous vehicles, and smart city infrastructure.
+## 🔥 News
+- 🔥 STARK has been accepted to [NeurIPS 2025](https://neurips.cc/virtual/2025/poster/121374) dataset and benchmark track! Stay tuned for our camera-ready!
+- 🔥 We've released both [STARK-S](https://huggingface.co/datasets/prquan/STARK_1k) (1.3k samples, for low-cost and rapid evaluation) and [STARK-L](https://huggingface.co/datasets/prquan/STARK_10k) (14k samples, for comprehensive evaluation), enabling the community to choose the benchmark size that fits their cost budget.
+- We've released full dataset (STARK-L) evaluation [cost](#stark-l-evaluation-cost) for reference.
 
 ## Dataset Summary
+
+**[STARK](https://arxiv.org/abs/2505.11618)** is a comprehensive benchmark designed to systematically evaluate large language models (LLMs) and large reasoning models (LRMs) on spatial-temporal reasoning tasks, particularly for applications in cyber-physical systems (CPS) such as robotics, autonomous vehicles, and smart city infrastructure.
 
 - **Hierarchical Benchmark:** Tasks are structured across three levels of reasoning complexity:
   1. **State Estimation:** Field variable prediction, spatial/temporal localization, and tracking with diverse sensor modalities (range, bearing, proximity, event-based).
@@ -79,6 +84,22 @@ Example usage:
 ```
 python main.py --openai Llama-4 --dataset loc_range  --index 5 --mode text
 ```
+
+## STARK-L Evaluation Cost
+
+| Model| Cost per run | Provider|
+|--|-|-|
+| O3*| $759.8| OpenAI|
+| O3-mini| $442.9| OpenAI|
+| O4-mini| $352.6| OpenAI|
+| GPT-4.1| $237.5| OpenAI|
+| GPT-4o| $284.1| OpenAI|
+| GPT-4o-mini| $18.3| OpenAI|
+| LlaMA-4| $44.4| Together.ai  |
+| LlaMA-3-8B| $9.21| Together.ai  |
+| Mistral-7| $25.1| Together.ai  |
+*The cost of o3 is reduced by 80% since 06/2025.
+
 
 ## Contact Information
 
